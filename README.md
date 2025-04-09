@@ -6,6 +6,49 @@
 
 Crear una herramienta educativa sencilla e interactiva que facilite el aprendizaje del abecedario mediante imágenes, colores y diseño intuitivo, pensado especialmente para los más pequeños.
 
+
+## 📁 Estructura del Proyecto
+
+│   .gitignore
+│   index.html
+│   README.md
+│
+├───.vscode
+│       settings.json
+│
+├───css
+│       general.css
+│
+├───img
+│       ADORNO.png
+│       BOMBILLO.png
+│       CUADERNOS.png
+│       DISCOS.png
+│       ESCALERAS.png
+│       FRASCOS.png
+│       GATO.png
+│       HOJA.png
+│       IMANES.png
+│       JOYA.png
+│       KIWI.png
+│       LIMON.png
+│       MESA.png
+│       NEVERA.png
+│       OLLA.png
+│       PLATO.png
+│       QUESO.png
+│       RELOJ.png
+│       SILLA.png
+│       TETERA.png
+│       UÑA.png
+│       VASO.png
+│       WHISKEY.png
+│       XILOFONO.png
+│       YOGAMAT.png
+│       ZAPATO.png
+│
+└───js
+        script.js
 ## 🛠️ Tecnologías utilizadas
 
 - HTML
