@@ -9,46 +9,26 @@ Crear una herramienta educativa sencilla e interactiva que facilite el aprendiza
 
 ## 📁 Estructura del Proyecto
 
-│   .gitignore
-│   index.html
-│   README.md
+Laboratorio_Abecedario/
 │
-├───.vscode
-│       settings.json
+├── .gitignore           # Archivos/carpetas que no se suben al repositorio
+├── index.html           # Página principal del sitio web
+├── README.md            # Documentación del proyecto
 │
-├───css
-│       general.css
+├── css/                 # Hojas de estilo
+│   └── general.css      # Estilos principales del sitio
 │
-├───img
-│       ADORNO.png
-│       BOMBILLO.png
-│       CUADERNOS.png
-│       DISCOS.png
-│       ESCALERAS.png
-│       FRASCOS.png
-│       GATO.png
-│       HOJA.png
-│       IMANES.png
-│       JOYA.png
-│       KIWI.png
-│       LIMON.png
-│       MESA.png
-│       NEVERA.png
-│       OLLA.png
-│       PLATO.png
-│       QUESO.png
-│       RELOJ.png
-│       SILLA.png
-│       TETERA.png
-│       UÑA.png
-│       VASO.png
-│       WHISKEY.png
-│       XILOFONO.png
-│       YOGAMAT.png
-│       ZAPATO.png
+├── img/                 # Imágenes organizadas por letras del abecedario
+│   ├── ADORNO.png
+│   ├── BOMBILLO.png
+│   ├── CUADERNOS.png
+│   ├── ...
+│   └── ZAPATO.png
 │
-└───js
-        script.js
+└── js/                  # Archivos JavaScript para interactividad
+    └── script.js        # Script principal del sitio
+
+
 ## 🛠️ Tecnologías utilizadas
 
 - HTML
