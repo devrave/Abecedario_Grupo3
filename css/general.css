@@ -90,14 +90,17 @@ Si decides no usarlo, está bien, y solo lo borramos*/
 figcaption.colorizable.color1 {
     background-color: #e39a9a;
     color: #000000;
+    cursor: pointer;
 }
 
 figcaption.colorizable.color2 {
     background-color: #ffd966;
     color: #000000;
+    cursor: pointer;
 }
 
 figcaption.colorizable.color3 {
     background-color: #508294;
     color: #000000;
+    cursor: pointer;
 }
