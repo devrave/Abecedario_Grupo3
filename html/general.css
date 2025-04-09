@@ -1,7 +1,7 @@
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-family: 'Comic Sans MS', cursive, sans-serif;
-    background-color: #faefd2;
+    background-color: #986464;
     margin: 0;
     font-size: medium;
 
@@ -9,41 +9,59 @@ body {
 
 header {
     text-align: center;
-    color: #03071a;
-    font-size: large;
+    color: #ac4545;
+    font-size: larger;
     margin: auto;
     text-shadow: 2px 2px 4px rgb(255, 255, 255);
 }
 
 h1 {
-    font-size: large;
+    font-size: 35px;
     color:#03071a;
     margin: 0;
 }
 
+section {
+    margin-bottom: 0;
+    padding: 0%;
+}
 
 section > div {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(50px));
-    gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
+    gap: 10px;
     margin: auto;
     padding: 10px;
-    background-color: #ffffff;
-    border-radius: 15px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    background-color: #fadebe;
 }
 
-/*figure {
-
-}*/
+figure {
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    text-align: center;
+}
 
 figure img {
-    width: 100px;
-    height: 100px;
+    width: 100%;
+    height: 150px;
     object-fit: cover;
-    border-radius: 10px;
+    border: 10px black;
     padding: 10px;
     text-align: center;
+    display: block;
+}
+
+figcaption {
+    display: inline-block;
+    background-color: #e39a9a;
+    font-weight: bold;
+    color: #660f0f;
+    border: 3px solid black;
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-size: medium;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
 }
 
 footer {
@@ -62,5 +80,24 @@ footer li {
     list-style: disc;
     text-align: left;
     display: inline-block;
-    margin: auto
+    margin: 30px
+}
+
+
+/*Esta es la clase que se usa para que se relacione con el JS, al darle clic se llama cada color y se hace un contador para que cambie de color
+Si decides no usarlo, está bien, y solo lo borramos*/
+
+figcaption.colorizable.color1 {
+    background-color: #e39a9a;
+    color: #000000;
+}
+
+figcaption.colorizable.color2 {
+    background-color: #ffd966;
+    color: #000000;
+}
+
+figcaption.colorizable.color3 {
+    background-color: #508294;
+    color: #000000;
 }
